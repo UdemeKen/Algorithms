@@ -1,5 +1,6 @@
 package org.example;
 
+import org.example.assignValues.ValueAssignment;
 import org.example.findSum.FindSum_1;
 import org.example.findSum.FindSum_2;
 
@@ -17,5 +18,8 @@ public class Main {
         FindSum_2 findSum_2 = new FindSum_2();
         System.out.println(findSum_2.findSum(100));
         System.out.println("Time taken : " + (System.currentTimeMillis() - now) + " millisecond(s).");
+
+        ValueAssignment valueAssignment = new ValueAssignment();
+        valueAssignment.assignArray();
     }
 }
