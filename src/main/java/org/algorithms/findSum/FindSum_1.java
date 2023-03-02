@@ -1,4 +1,4 @@
-package org.example.findSum;
+package org.algorithms.findSum;
 
 public class FindSum_1 {
 
