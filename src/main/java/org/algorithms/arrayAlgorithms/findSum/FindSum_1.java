@@ -1,4 +1,4 @@
-package org.algorithms.findSum;
+package org.algorithms.arrayAlgorithms.findSum;
 
 public class FindSum_1 {
 

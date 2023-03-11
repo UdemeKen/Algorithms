@@ -1,13 +1,17 @@
 package org.algorithms;
 
-import org.algorithms.assignValues.ValueAssignment;
-import org.algorithms.findMinimum.FindMinimum;
-import org.algorithms.findSum.FindSum_1;
-import org.algorithms.findSum.FindSum_2;
-import org.algorithms.moveZeros.MoveZeros;
-import org.algorithms.removeEven.RemoveEven;
-import org.algorithms.reverseArray.ReverseArray;
-import org.algorithms.secondMax.SecondMax;
+import org.algorithms.arrayAlgorithms.assignValues.ValueAssignment;
+import org.algorithms.arrayAlgorithms.findMinimum.FindMinimum;
+import org.algorithms.arrayAlgorithms.findSum.FindSum_1;
+import org.algorithms.arrayAlgorithms.findSum.FindSum_2;
+import org.algorithms.arrayAlgorithms.missingNum.MissingNum;
+import org.algorithms.arrayAlgorithms.moveZeros.MoveZeros;
+import org.algorithms.arrayAlgorithms.palindrome.Palindrome;
+import org.algorithms.arrayAlgorithms.removeEven.RemoveEven;
+import org.algorithms.arrayAlgorithms.resizeArray.ResizeArray;
+import org.algorithms.arrayAlgorithms.reverseArray.ReverseArray;
+import org.algorithms.arrayAlgorithms.secondMax.SecondMax;
+import org.algorithms.linkListAlgorithms.singlyLinkList.SinglyLinkList;
 
 import java.util.Arrays;
 
@@ -60,6 +64,29 @@ public class Main {
         System.out.println("The element of the array is: " + Arrays.toString(moveZeroArr));
         move.moveZeros(moveZeroArr, moveZeroArr.length);
         System.out.println("New array: " + Arrays.toString(moveZeroArr));
+
+//        Resize an array
+        ResizeArray resize = new ResizeArray();
+        int[] originalArr = {2, 5, 6, 1};
+        System.out.println("The size of  originalArray is: " + originalArr.length);
+        originalArr = resize.resizeArray(originalArr, originalArr.length * 2);
+        System.out.println("The size of originalArray after resizing is: " + originalArr.length);
+
+//        Find the Missing Number in an array
+        MissingNum missing = new MissingNum();
+        int[] missArrNum = {1, 4, 7, 3, 5, 2, 9, 8};
+        System.out.println("The element of the array is: " + Arrays.toString(missArrNum));
+        int missingNum = missing.missingNum(missArrNum);
+        System.out.println("The missing number in the array is: " + missingNum);
+
+//        Check if a word is palindrome
+        Palindrome palindrome = new Palindrome();
+        String word = "that";
+        if (palindrome.isPalindrome(word)){
+            System.out.println("The word *" +word.toUpperCase()+ "* is a palindrome");
+        }else {
+            System.out.println("The word *" +word.toUpperCase()+ "* is not a palindrome");
+        }
 
 //        Value Assignment
         ValueAssignment valueAssignment = new ValueAssignment();

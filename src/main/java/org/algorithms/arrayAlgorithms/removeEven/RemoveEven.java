@@ -1,4 +1,4 @@
-package org.algorithms.removeEven;
+package org.algorithms.arrayAlgorithms.removeEven;
 
 public class RemoveEven {
 

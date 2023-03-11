@@ -1,4 +1,4 @@
-package org.algorithms.findMinimum;
+package org.algorithms.arrayAlgorithms.findMinimum;
 
 public class FindMinimum {
 

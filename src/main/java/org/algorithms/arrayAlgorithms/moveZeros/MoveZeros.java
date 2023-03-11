@@ -1,4 +1,4 @@
-package org.algorithms.moveZeros;
+package org.algorithms.arrayAlgorithms.moveZeros;
 
 public class MoveZeros {
 

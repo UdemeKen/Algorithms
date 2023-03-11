@@ -1,4 +1,4 @@
-package org.algorithms.assignValues;
+package org.algorithms.arrayAlgorithms.assignValues;
 
 public class ValueAssignment {
 

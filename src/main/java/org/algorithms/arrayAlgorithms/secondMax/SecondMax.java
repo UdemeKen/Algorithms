@@ -1,4 +1,4 @@
-package org.algorithms.secondMax;
+package org.algorithms.arrayAlgorithms.secondMax;
 
 public class SecondMax {
 

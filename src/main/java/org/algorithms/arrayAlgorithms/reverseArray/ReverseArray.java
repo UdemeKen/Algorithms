@@ -1,4 +1,4 @@
-package org.algorithms.reverseArray;
+package org.algorithms.arrayAlgorithms.reverseArray;
 
 public class ReverseArray {
 
