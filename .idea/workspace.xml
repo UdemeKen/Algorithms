@@ -4,22 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe04a80a-f33f-48c6-805c-6e561d765687" name="Changes" comment="Remove even numbers and Reversing an array added.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithms/arrayAlgorithms/missingNum/MissingNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithms/arrayAlgorithms/palindrome/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithms/arrayAlgorithms/resizeArray/ResizeArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithms/linkListAlgorithms/singlyLinkList/SinglyLinkList.java" afterDir="false" />
+    <list default="true" id="fe04a80a-f33f-48c6-805c-6e561d765687" name="Changes" comment="Array and Link List Added.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/algorithms/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/algorithms/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/algorithms/assignValues/ValueAssignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/algorithms/arrayAlgorithms/assignValues/ValueAssignment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/algorithms/findMinimum/FindMinimum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/algorithms/arrayAlgorithms/findMinimum/FindMinimum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/algorithms/findSum/FindSum_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/algorithms/arrayAlgorithms/findSum/FindSum_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/algorithms/findSum/FindSum_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/algorithms/arrayAlgorithms/findSum/FindSum_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/algorithms/moveZeros/MoveZeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/algorithms/arrayAlgorithms/moveZeros/MoveZeros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/algorithms/removeEven/RemoveEven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/algorithms/arrayAlgorithms/removeEven/RemoveEven.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/algorithms/reverseArray/ReverseArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/algorithms/arrayAlgorithms/reverseArray/ReverseArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/algorithms/secondMax/SecondMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/algorithms/arrayAlgorithms/secondMax/SecondMax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/algorithms/linkListAlgorithms/singlyLinkList/SinglyLinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/algorithms/linkListAlgorithms/singlyLinkList/SinglyLinkList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +50,11 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.algorithms.linkListAlgorithms.linkListLength" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.SinglyLinkList">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.algorithms.Main" />
@@ -110,7 +103,10 @@
       <workItem from="1678051730538" duration="3642000" />
       <workItem from="1678140784377" duration="1111000" />
       <workItem from="1678490435252" duration="5240000" />
-      <workItem from="1678561339142" duration="4846000" />
+      <workItem from="1678561339142" duration="4929000" />
+      <workItem from="1679259665346" duration="409000" />
+      <workItem from="1679315200202" duration="366000" />
+      <workItem from="1681158671476" duration="17001000" />
     </task>
     <task id="LOCAL-00001" summary="FindSum algorithm with time complexity updated.">
       <created>1677101704505</created>
@@ -133,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677766812666</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Array and Link List Added.">
+      <created>1678569006517</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678569006517</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +157,7 @@
     <MESSAGE value="FindSum algorithm with time complexity updated." />
     <MESSAGE value="Value assignment added." />
     <MESSAGE value="Remove even numbers and Reversing an array added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove even numbers and Reversing an array added." />
+    <MESSAGE value="Array and Link List Added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Array and Link List Added." />
   </component>
 </project>

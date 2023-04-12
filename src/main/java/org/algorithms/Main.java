@@ -11,7 +11,6 @@ import org.algorithms.arrayAlgorithms.removeEven.RemoveEven;
 import org.algorithms.arrayAlgorithms.resizeArray.ResizeArray;
 import org.algorithms.arrayAlgorithms.reverseArray.ReverseArray;
 import org.algorithms.arrayAlgorithms.secondMax.SecondMax;
-import org.algorithms.linkListAlgorithms.singlyLinkList.SinglyLinkList;
 
 import java.util.Arrays;
 
