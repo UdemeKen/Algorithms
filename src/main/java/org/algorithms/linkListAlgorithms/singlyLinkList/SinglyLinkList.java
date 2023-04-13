@@ -22,6 +22,7 @@ public class SinglyLinkList{
         System.out.println("null");
     }
 
+//    Find the length of a linkList
     public int length(){
         if(head == null){
             return 0;
@@ -33,6 +34,25 @@ public class SinglyLinkList{
             current = current.next;
         }
         return count;
+    }
+
+    public void insertFirst(int value){
+        ListNode newNode = new ListNode(value);
+        newNode.next = head;
+        head = newNode;
+    }
+
+    public void insertLast(int value){
+        ListNode newNode = new ListNode(value);
+        if (head == null){
+            head = newNode;
+            return;
+        }
+        ListNode current = head;
+        while (null != current.next){
+            current = current.next;
+        }
+        current.next = newNode;
     }
     public static void main(String[] args) {
         SinglyLinkList ssl = new SinglyLinkList();
@@ -47,6 +67,10 @@ public class SinglyLinkList{
         third.next = fourth;
         fourth.next = null;
 
+        ssl.insertFirst(3);
+        ssl.insertFirst(7);
+        ssl.insertLast(11);
+        ssl.insertLast(12);
         ssl.display();
         System.out.println("Length: " + ssl.length());
     }

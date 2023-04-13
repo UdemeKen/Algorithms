@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe04a80a-f33f-48c6-805c-6e561d765687" name="Changes" comment="Array and Link List Added.">
+    <list default="true" id="fe04a80a-f33f-48c6-805c-6e561d765687" name="Changes" comment="Length of a linkList added.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/algorithms/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/algorithms/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/algorithms/linkListAlgorithms/singlyLinkList/SinglyLinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/algorithms/linkListAlgorithms/singlyLinkList/SinglyLinkList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +105,8 @@
       <workItem from="1678561339142" duration="4929000" />
       <workItem from="1679259665346" duration="409000" />
       <workItem from="1679315200202" duration="366000" />
-      <workItem from="1681158671476" duration="17001000" />
+      <workItem from="1681158671476" duration="17225000" />
+      <workItem from="1681370703218" duration="1307000" />
     </task>
     <task id="LOCAL-00001" summary="FindSum algorithm with time complexity updated.">
       <created>1677101704505</created>
@@ -136,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678569006517</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Length of a linkList added.">
+      <created>1681299227742</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681299227742</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +165,7 @@
     <MESSAGE value="Value assignment added." />
     <MESSAGE value="Remove even numbers and Reversing an array added." />
     <MESSAGE value="Array and Link List Added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Array and Link List Added." />
+    <MESSAGE value="Length of a linkList added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Length of a linkList added." />
   </component>
 </project>
