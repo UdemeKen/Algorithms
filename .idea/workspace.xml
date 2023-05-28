@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe04a80a-f33f-48c6-805c-6e561d765687" name="Changes" comment="Length of a linkList added.">
+    <list default="true" id="fe04a80a-f33f-48c6-805c-6e561d765687" name="Changes" comment="InsertFirst and insertLast added.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/algorithms/linkListAlgorithms/singlyLinkList/SinglyLinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/algorithms/linkListAlgorithms/singlyLinkList/SinglyLinkList.java" afterDir="false" />
     </list>
@@ -106,7 +106,9 @@
       <workItem from="1679259665346" duration="409000" />
       <workItem from="1679315200202" duration="366000" />
       <workItem from="1681158671476" duration="17225000" />
-      <workItem from="1681370703218" duration="1307000" />
+      <workItem from="1681370703218" duration="1388000" />
+      <workItem from="1683215021359" duration="1399000" />
+      <workItem from="1684791673502" duration="11671000" />
     </task>
     <task id="LOCAL-00001" summary="FindSum algorithm with time complexity updated.">
       <created>1677101704505</created>
@@ -143,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681299227742</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="InsertFirst and insertLast added.">
+      <created>1681409831275</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1681409831275</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +175,7 @@
     <MESSAGE value="Remove even numbers and Reversing an array added." />
     <MESSAGE value="Array and Link List Added." />
     <MESSAGE value="Length of a linkList added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Length of a linkList added." />
+    <MESSAGE value="InsertFirst and insertLast added." />
+    <option name="LAST_COMMIT_MESSAGE" value="InsertFirst and insertLast added." />
   </component>
 </project>

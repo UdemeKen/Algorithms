@@ -36,6 +36,24 @@ public class SinglyLinkList{
         return count;
     }
 
+    public void insert(int position, int value){
+        ListNode node = new ListNode(value);
+        if(position == 1){
+            node.next = head;
+            head = node;
+        }else{
+            ListNode previous = head;
+            int count = 1;
+            while(count < position - 1){
+                previous = previous.next;
+                count++;
+            }
+            ListNode current = previous.next;
+            previous.next = node;
+            node.next = current;
+        }
+    }
+
     public void insertFirst(int value){
         ListNode newNode = new ListNode(value);
         newNode.next = head;
@@ -71,6 +89,9 @@ public class SinglyLinkList{
         ssl.insertFirst(7);
         ssl.insertLast(11);
         ssl.insertLast(12);
+        ssl.insert(1, 4);
+        ssl.insert(6, 12);
+        ssl.insert(11, 77);
         ssl.display();
         System.out.println("Length: " + ssl.length());
     }
