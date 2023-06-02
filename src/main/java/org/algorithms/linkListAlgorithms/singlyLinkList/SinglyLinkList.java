@@ -13,6 +13,7 @@ public class SinglyLinkList{
         }
     }
 
+//    Display element of a linklist
     public void display(){
         ListNode current = head;
         while (current != null){
@@ -36,6 +37,7 @@ public class SinglyLinkList{
         return count;
     }
 
+//    Insertion of listNode in any position of a linklist
     public void insert(int position, int value){
         ListNode node = new ListNode(value);
         if(position == 1){
@@ -54,12 +56,14 @@ public class SinglyLinkList{
         }
     }
 
+//    Insertion of  listNode at the first position of a linkList
     public void insertFirst(int value){
         ListNode newNode = new ListNode(value);
         newNode.next = head;
         head = newNode;
     }
 
+//    Insertion of listNode at the last position of a linkList
     public void insertLast(int value){
         ListNode newNode = new ListNode(value);
         if (head == null){
@@ -72,6 +76,19 @@ public class SinglyLinkList{
         }
         current.next = newNode;
     }
+
+//    Deleting the first position listNode in a linkList
+    public ListNode deleteFirst(){
+        if (head == null){
+            return null;
+        }
+        ListNode temp = head;
+        head= head.next;
+        temp.next = null;
+        return temp;
+    }
+
+//    Main method
     public static void main(String[] args) {
         SinglyLinkList ssl = new SinglyLinkList();
         ssl.head = new ListNode(10);
@@ -90,8 +107,7 @@ public class SinglyLinkList{
         ssl.insertLast(11);
         ssl.insertLast(12);
         ssl.insert(1, 4);
-        ssl.insert(6, 12);
-        ssl.insert(11, 77);
+        ssl.deleteFirst();
         ssl.display();
         System.out.println("Length: " + ssl.length());
     }
