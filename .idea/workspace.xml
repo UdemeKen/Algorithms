@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe04a80a-f33f-48c6-805c-6e561d765687" name="Changes" comment="Delete node at any position added.">
+    <list default="true" id="fe04a80a-f33f-48c6-805c-6e561d765687" name="Changes" comment="Search key added.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/algorithms/linkListAlgorithms/singlyLinkList/SinglyLinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/algorithms/linkListAlgorithms/singlyLinkList/SinglyLinkList.java" afterDir="false" />
     </list>
@@ -111,7 +111,7 @@
       <workItem from="1684791673502" duration="14469000" />
       <workItem from="1685694641546" duration="4935000" />
       <workItem from="1685714117005" duration="73000" />
-      <workItem from="1690060249527" duration="3399000" />
+      <workItem from="1690060249527" duration="10955000" />
     </task>
     <task id="LOCAL-00001" summary="FindSum algorithm with time complexity updated.">
       <created>1677101704505</created>
@@ -183,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690094274970</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Search key added.">
+      <created>1690096640377</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1690096640377</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +218,7 @@
     <MESSAGE value="Delete node at the first position added." />
     <MESSAGE value="Delete node at the last position added." />
     <MESSAGE value="Delete node at any position added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete node at any position added." />
+    <MESSAGE value="Search key added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Search key added." />
   </component>
 </project>
