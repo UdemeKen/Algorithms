@@ -103,6 +103,21 @@ public class SinglyLinkList{
         return current;
     }
 
+    public void delete(int position){
+        if (position == 1){
+            head = head.next;
+        }else {
+            ListNode previous = head;
+            int count = 1;
+            while (count < position -1){
+                previous = previous.next;
+                count++;
+            }
+            ListNode current = previous.next;
+            previous.next = current.next;
+        }
+    }
+
 //    Main method
     public static void main(String[] args) {
         SinglyLinkList ssl = new SinglyLinkList();
@@ -124,7 +139,9 @@ public class SinglyLinkList{
         ssl.insert(1, 4);
         ssl.deleteFirst();
         ssl.display();
-        System.out.println(ssl.deleteLast().data);
+        System.out.println("Last node deleted : " + ssl.deleteLast().data);
+        ssl.display();
+        ssl.delete(4);
         ssl.display();
         System.out.println("Length: " + ssl.length());
     }
