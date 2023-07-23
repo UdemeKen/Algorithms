@@ -88,6 +88,21 @@ public class SinglyLinkList{
         return temp;
     }
 
+    public ListNode deleteLast(){
+        if (head == null || head.next == null){
+            return head;
+        }
+        ListNode current = head;
+        ListNode previous = null;
+
+        while (current.next != null){
+            previous = current;
+            current = current.next;
+        }
+        previous.next = null;
+        return current;
+    }
+
 //    Main method
     public static void main(String[] args) {
         SinglyLinkList ssl = new SinglyLinkList();
@@ -108,6 +123,8 @@ public class SinglyLinkList{
         ssl.insertLast(12);
         ssl.insert(1, 4);
         ssl.deleteFirst();
+        ssl.display();
+        System.out.println(ssl.deleteLast().data);
         ssl.display();
         System.out.println("Length: " + ssl.length());
     }
