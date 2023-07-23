@@ -1,7 +1,7 @@
 package org.algorithms.linkListAlgorithms.singlyLinkList;
 
 public class SinglyLinkList{
-    public   ListNode head;
+    public static ListNode head;
 
     private static class ListNode{
         private int data;
@@ -118,6 +118,21 @@ public class SinglyLinkList{
         }
     }
 
+    public boolean find(ListNode head, int searchKey){
+        if (head == null){
+            return false;
+        }
+
+        ListNode current = head;
+        while (current != null){
+            if (current.data == searchKey){
+                return true;
+            }
+            current = current.next;
+        }
+        return false;
+    }
+
 //    Main method
     public static void main(String[] args) {
         SinglyLinkList ssl = new SinglyLinkList();
@@ -143,6 +158,11 @@ public class SinglyLinkList{
         ssl.display();
         ssl.delete(4);
         ssl.display();
+        if (ssl.find(head, 5)){
+            System.out.println("Search key found!!!");
+        }else {
+            System.out.println("Search key not found!!!");
+        }
         System.out.println("Length: " + ssl.length());
     }
 }
