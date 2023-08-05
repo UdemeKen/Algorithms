@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe04a80a-f33f-48c6-805c-6e561d765687" name="Changes" comment="Search key added.">
+    <list default="true" id="fe04a80a-f33f-48c6-805c-6e561d765687" name="Changes" comment="Reverse List added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithms/linkListAlgorithms/singlyLinkList_01/SinglyLinkedList_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithms/linkListAlgorithms/singlyLinkList_02/SinglyLinkedList_02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/algorithms/linkListAlgorithms/singlyLinkList/SinglyLinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/algorithms/linkListAlgorithms/singlyLinkList/SinglyLinkList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/algorithms/linkListAlgorithms/singlyLinkList/SinglyLinkList.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +56,7 @@
       <recent name="org.algorithms.linkListAlgorithms.linkListLength" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SinglyLinkList">
+  <component name="RunManager" selected="Application.SinglyLinkedList_02">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.algorithms.Main" />
       <module name="Algorithms" />
@@ -68,12 +70,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinglyLinkList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithms.linkListAlgorithms.singlyLinkList.SinglyLinkList" />
+    <configuration name="SinglyLinkedList_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithms.linkListAlgorithms.singlyLinkList_01.SinglyLinkedList_01" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.algorithms.linkListAlgorithms.singlyLinkList.*" />
+          <option name="PATTERN" value="org.algorithms.linkListAlgorithms.singlyLinkList_01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SinglyLinkedList_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithms.linkListAlgorithms.singlyLinkList_02.SinglyLinkedList_02" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.algorithms.linkListAlgorithms.singlyLinkList_02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,7 +98,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SinglyLinkList" />
+        <item itemvalue="Application.SinglyLinkedList_02" />
+        <item itemvalue="Application.SinglyLinkedList_01" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -111,7 +127,9 @@
       <workItem from="1684791673502" duration="14469000" />
       <workItem from="1685694641546" duration="4935000" />
       <workItem from="1685714117005" duration="73000" />
-      <workItem from="1690060249527" duration="10955000" />
+      <workItem from="1690060249527" duration="11833000" />
+      <workItem from="1690282894830" duration="51000" />
+      <workItem from="1691265288661" duration="3090000" />
     </task>
     <task id="LOCAL-00001" summary="FindSum algorithm with time complexity updated.">
       <created>1677101704505</created>
@@ -190,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690096640377</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Reverse List added">
+      <created>1690110524515</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1690110524515</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +244,7 @@
     <MESSAGE value="Delete node at the last position added." />
     <MESSAGE value="Delete node at any position added." />
     <MESSAGE value="Search key added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Search key added." />
+    <MESSAGE value="Reverse List added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reverse List added" />
   </component>
 </project>
