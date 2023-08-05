@@ -56,6 +56,7 @@ public class SinglyLinkedList_02 {
         sll_02.insertAtBeginning(4);
         sll_02.insertAtBeginning(28);
 
+//        print elements
         sll_02.printLinkedList();
 
         ListNode middleNode = sll_02.getMiddleNode();
