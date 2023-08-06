@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe04a80a-f33f-48c6-805c-6e561d765687" name="Changes" comment="Find middle node added">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/algorithms/linkListAlgorithms/singlyLinkList_02/SinglyLinkedList_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/algorithms/linkListAlgorithms/singlyLinkList_02/SinglyLinkedList_02.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +127,7 @@
       <workItem from="1685714117005" duration="73000" />
       <workItem from="1690060249527" duration="11833000" />
       <workItem from="1690282894830" duration="51000" />
-      <workItem from="1691265288661" duration="3442000" />
+      <workItem from="1691265288661" duration="4229000" />
     </task>
     <task id="LOCAL-00001" summary="FindSum algorithm with time complexity updated.">
       <created>1677101704505</created>
@@ -219,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691268779019</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Find middle node added">
+      <created>1691268910513</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1691268910513</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

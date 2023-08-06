@@ -47,6 +47,31 @@ public class SinglyLinkedList_02 {
         return slowPtr;
     }
 
+    public ListNode getNthNodeFromEnd(int n){
+        if (head == null){
+            return null;
+        }
+        if (n <= 0){
+            throw  new IllegalArgumentException("Invalid value n: " + n);
+        }
+        ListNode mainPtr = head;
+        ListNode refPtr = head;
+
+        int count = 0;
+        while (count < n){
+            if(refPtr == null){
+                throw  new IllegalArgumentException(n + "is greater than the number of nodes in the list");
+            }
+            refPtr = refPtr.next;
+            count++;
+        }
+        while (refPtr != null){
+            refPtr = refPtr.next;
+            mainPtr = mainPtr.next;
+        }
+        return mainPtr;
+    }
+
     public static void main(String[] args) {
         SinglyLinkedList_02 sll_02 = new SinglyLinkedList_02();
 //        insert Element
@@ -59,8 +84,11 @@ public class SinglyLinkedList_02 {
 //        print elements
         sll_02.printLinkedList();
 
-        ListNode middleNode = sll_02.getMiddleNode();
-        System.out.println("Middle node is - " + middleNode.data);
+        ListNode nthNodeFromEnd = sll_02.getNthNodeFromEnd(2);
+        System.out.println("Nth node from end is - " + nthNodeFromEnd.data);
+
+//        ListNode middleNode = sll_02.getMiddleNode();
+//        System.out.println("Middle node is - " + middleNode.data);
 
     }
 }
