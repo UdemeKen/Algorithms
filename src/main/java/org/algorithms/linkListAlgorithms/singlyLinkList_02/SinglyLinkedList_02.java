@@ -72,20 +72,54 @@ public class SinglyLinkedList_02 {
         return mainPtr;
     }
 
+    public void removeDuplicate(){
+        if (head == null){
+            return;
+        }
+
+        ListNode current = head;
+        while (current != null && current.next != null){
+            if (current.data == current.next.data){
+                current.next = current.next.next;
+            }else {
+                current = current.next;
+            }
+        }
+    }
+
+    public ListNode insertInSortedList(int value){
+        ListNode newNode = new ListNode(value);
+
+        ListNode current = head;
+        ListNode temp = null;
+        while(current != null && current.data < newNode.data){
+            temp = current;
+            current = current.next;
+        }
+        newNode.next = current;
+        temp.next = newNode;
+        return  head;
+    }
+
     public static void main(String[] args) {
         SinglyLinkedList_02 sll_02 = new SinglyLinkedList_02();
 //        insert Element
-        sll_02.insertAtBeginning(19);
-        sll_02.insertAtBeginning(95);
-        sll_02.insertAtBeginning(5);
+        sll_02.insertAtBeginning(6);
         sll_02.insertAtBeginning(4);
-        sll_02.insertAtBeginning(28);
+        sll_02.insertAtBeginning(4);
+        sll_02.insertAtBeginning(2);
+        sll_02.insertAtBeginning(2);
 
 //        print elements
         sll_02.printLinkedList();
+        sll_02.removeDuplicate();
+        sll_02.printLinkedList();
+        sll_02.insertInSortedList(5);
+        sll_02.printLinkedList();
 
-        ListNode nthNodeFromEnd = sll_02.getNthNodeFromEnd(2);
-        System.out.println("Nth node from end is - " + nthNodeFromEnd.data);
+
+//        ListNode nthNodeFromEnd = sll_02.getNthNodeFromEnd(2);
+//        System.out.println("Nth node from end is - " + nthNodeFromEnd.data);
 
 //        ListNode middleNode = sll_02.getMiddleNode();
 //        System.out.println("Middle node is - " + middleNode.data);

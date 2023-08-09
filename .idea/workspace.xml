@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe04a80a-f33f-48c6-805c-6e561d765687" name="Changes" comment="Find middle node added">
+    <list default="true" id="fe04a80a-f33f-48c6-805c-6e561d765687" name="Changes" comment="Find nth node from end added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/algorithms/linkListAlgorithms/singlyLinkList_02/SinglyLinkedList_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/algorithms/linkListAlgorithms/singlyLinkList_02/SinglyLinkedList_02.java" afterDir="false" />
     </list>
@@ -127,7 +127,9 @@
       <workItem from="1685714117005" duration="73000" />
       <workItem from="1690060249527" duration="11833000" />
       <workItem from="1690282894830" duration="51000" />
-      <workItem from="1691265288661" duration="4229000" />
+      <workItem from="1691265288661" duration="4575000" />
+      <workItem from="1691406600916" duration="1044000" />
+      <workItem from="1691571473466" duration="461000" />
     </task>
     <task id="LOCAL-00001" summary="FindSum algorithm with time complexity updated.">
       <created>1677101704505</created>
@@ -227,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691268910513</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Find nth node from end added">
+      <created>1691315752277</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1691315752277</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,6 +267,7 @@
     <MESSAGE value="Search key added." />
     <MESSAGE value="Reverse List added" />
     <MESSAGE value="Find middle node added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Find middle node added" />
+    <MESSAGE value="Find nth node from end added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Find nth node from end added" />
   </component>
 </project>
