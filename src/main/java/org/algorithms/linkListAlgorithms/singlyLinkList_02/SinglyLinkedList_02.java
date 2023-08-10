@@ -1,6 +1,6 @@
 package org.algorithms.linkListAlgorithms.singlyLinkList_02;
 
-import java.util.List;
+import java.awt.*;
 
 public class SinglyLinkedList_02 {
 
@@ -101,6 +101,27 @@ public class SinglyLinkedList_02 {
         return  head;
     }
 
+    public void deleteNode(int key){
+        ListNode current = head;
+        ListNode temp = null;
+
+        if(current != null && current.data == key){
+            head = current.next;
+            return;
+        }
+
+        while (current != null && current.data != key){
+            temp = current;
+            current = current.next;
+        }
+
+        if (current == null){
+            return;
+        }
+
+        temp.next = current.next;
+    }
+
     public static void main(String[] args) {
         SinglyLinkedList_02 sll_02 = new SinglyLinkedList_02();
 //        insert Element
@@ -115,6 +136,8 @@ public class SinglyLinkedList_02 {
         sll_02.removeDuplicate();
         sll_02.printLinkedList();
         sll_02.insertInSortedList(5);
+        sll_02.printLinkedList();
+        sll_02.deleteNode(5);
         sll_02.printLinkedList();
 
 

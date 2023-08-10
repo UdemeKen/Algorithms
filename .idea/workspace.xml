@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe04a80a-f33f-48c6-805c-6e561d765687" name="Changes" comment="Find nth node from end added">
+    <list default="true" id="fe04a80a-f33f-48c6-805c-6e561d765687" name="Changes" comment="Insert node in sorted list added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/algorithms/linkListAlgorithms/singlyLinkList_02/SinglyLinkedList_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/algorithms/linkListAlgorithms/singlyLinkList_02/SinglyLinkedList_02.java" afterDir="false" />
     </list>
@@ -129,7 +129,8 @@
       <workItem from="1690282894830" duration="51000" />
       <workItem from="1691265288661" duration="4575000" />
       <workItem from="1691406600916" duration="1044000" />
-      <workItem from="1691571473466" duration="461000" />
+      <workItem from="1691571473466" duration="796000" />
+      <workItem from="1691665180313" duration="336000" />
     </task>
     <task id="LOCAL-00001" summary="FindSum algorithm with time complexity updated.">
       <created>1677101704505</created>
@@ -236,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691315752277</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Insert node in sorted list added">
+      <created>1691572688455</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1691572688455</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,6 +276,7 @@
     <MESSAGE value="Reverse List added" />
     <MESSAGE value="Find middle node added" />
     <MESSAGE value="Find nth node from end added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Find nth node from end added" />
+    <MESSAGE value="Insert node in sorted list added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Insert node in sorted list added" />
   </component>
 </project>
