@@ -1,4 +1,4 @@
-package org.algorithms.linkListAlgorithms.singlyLinkList_01;
+package org.algorithms.linkListAlgorithms.singlyLinkedList_01;
 
 public class SinglyLinkedList_01 {
     public  ListNode head;

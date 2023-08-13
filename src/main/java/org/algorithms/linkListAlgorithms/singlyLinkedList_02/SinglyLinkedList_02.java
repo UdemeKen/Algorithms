@@ -1,6 +1,4 @@
-package org.algorithms.linkListAlgorithms.singlyLinkList_02;
-
-import java.awt.*;
+package org.algorithms.linkListAlgorithms.singlyLinkedList_02;
 
 public class SinglyLinkedList_02 {
 
