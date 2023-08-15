@@ -15,6 +15,15 @@ public class SinglyLinkedList_03 {
         }
     }
 
+    public void display(){
+        ListNode current = head;
+        while (current != null){
+            System.out.print(current.data + " --> ");
+            current = current.next;
+        }
+        System.out.println("null");
+    }
+
     public boolean containsLoop(){
         ListNode fastPtr = head;
         ListNode slowPtr = head;
@@ -28,6 +37,54 @@ public class SinglyLinkedList_03 {
             }
         }
         return false;
+    }
+
+    public ListNode startNodeInALoop(){
+        ListNode fastPtr = head;
+        ListNode slowPtr = head;
+
+        while (fastPtr != null && fastPtr.next != null){
+            fastPtr = fastPtr.next.next;
+            slowPtr = slowPtr.next;
+
+            if (slowPtr == fastPtr){
+                return getStartNodeInALoop(slowPtr);
+            }
+        }
+        return null;
+    }
+
+    private ListNode getStartNodeInALoop(ListNode slowPtr) {
+        ListNode temp = head;
+        while (temp != slowPtr){
+            temp = temp.next;
+            slowPtr = slowPtr.next;
+        }
+        return temp;
+    }
+
+    public void removeLoop(){
+        ListNode fastPtr = head;
+        ListNode slowPtr = head;
+
+        while (fastPtr != null && fastPtr.next != null){
+            fastPtr = fastPtr.next.next;
+            slowPtr = slowPtr.next;
+
+            if (fastPtr == slowPtr){
+                removeLoop(slowPtr);
+                return;
+            }
+        }
+    }
+
+    private void removeLoop(ListNode slowPtr){
+        ListNode temp =head;
+        while (temp.next != slowPtr.next){
+            temp = temp.next;
+            slowPtr = slowPtr.next;
+        }
+        slowPtr .next= null;
     }
 
     public void createALoopInLinkedList(){
@@ -49,7 +106,10 @@ public class SinglyLinkedList_03 {
     public static void main(String[] args) {
         SinglyLinkedList_03 sll_03 = new SinglyLinkedList_03();
         sll_03.createALoopInLinkedList();
-        System.out.println(sll_03.containsLoop());
+//        System.out.println(sll_03.containsLoop());
+//        System.out.println(sll_03.startNodeInALoop().data);
+        sll_03.removeLoop();
+        sll_03.display();
     }
 }
 
