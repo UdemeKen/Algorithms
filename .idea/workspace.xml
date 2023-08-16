@@ -144,7 +144,7 @@
       <workItem from="1691265288661" duration="4575000" />
       <workItem from="1691406600916" duration="1044000" />
       <workItem from="1691571473466" duration="796000" />
-      <workItem from="1691665180313" duration="4457000" />
+      <workItem from="1691665180313" duration="9510000" />
     </task>
     <task id="LOCAL-00001" summary="FindSum algorithm with time complexity updated.">
       <created>1677101704505</created>
@@ -272,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691908831150</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="singlyLinkedList contains loop added">
+      <created>1692120475406</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1692120475406</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

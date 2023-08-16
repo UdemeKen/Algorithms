@@ -24,6 +24,19 @@ public class SinglyLinkedList_03 {
         System.out.println("null");
     }
 
+    public void insertLast(int value){
+        ListNode newNode = new ListNode(value);
+        if (head == null){
+            head = newNode;
+            return;
+        }
+        ListNode current = head;
+        while (null != current.next){
+            current = current.next;
+        }
+        current.next =newNode;
+    }
+
     public boolean containsLoop(){
         ListNode fastPtr = head;
         ListNode slowPtr = head;
@@ -87,6 +100,28 @@ public class SinglyLinkedList_03 {
         slowPtr .next= null;
     }
 
+    public static ListNode merge(ListNode a, ListNode b){
+        ListNode dummy = new ListNode(0);
+        ListNode tail = dummy;
+        while (a != null && b != null){
+            if (a.data <= b.data){
+                tail.next = a;
+                a = a.next;
+            }else {
+                tail.next = b;
+                b = b.next;
+            }
+            tail = tail.next;
+        }
+        if (a == null){
+            tail.next = b;
+        }else {
+            tail.next = a;
+        }
+
+        return dummy.next;
+    }
+
     public void createALoopInLinkedList(){
         ListNode first = new ListNode(1);
         ListNode second = new ListNode(2);
@@ -104,12 +139,24 @@ public class SinglyLinkedList_03 {
     }
 
     public static void main(String[] args) {
-        SinglyLinkedList_03 sll_03 = new SinglyLinkedList_03();
-        sll_03.createALoopInLinkedList();
+        SinglyLinkedList_03 sll_03a = new SinglyLinkedList_03();
+        sll_03a.createALoopInLinkedList();
 //        System.out.println(sll_03.containsLoop());
 //        System.out.println(sll_03.startNodeInALoop().data);
-        sll_03.removeLoop();
-        sll_03.display();
+        sll_03a.removeLoop();
+        sll_03a.display();
+
+        SinglyLinkedList_03 sll_03b = new SinglyLinkedList_03();
+        sll_03b.insertLast(4);
+        sll_03b.insertLast(7);
+        sll_03b.insertLast(8);
+        sll_03b.insertLast(9);
+
+        sll_03b.display();
+
+        SinglyLinkedList_03 result = new SinglyLinkedList_03();
+        result.head = merge(sll_03a.head, sll_03b.head);
+        result.display();
     }
 }
 
