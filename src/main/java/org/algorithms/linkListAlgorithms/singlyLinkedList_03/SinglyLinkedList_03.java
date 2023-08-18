@@ -122,6 +122,26 @@ public class SinglyLinkedList_03 {
         return dummy.next;
     }
 
+    public static ListNode addTwoSinglyLinkedList(ListNode a, ListNode b){
+        ListNode dummy = new ListNode(0);
+        ListNode tail = dummy;
+        int carry = 0;
+        while (a != null || b != null){
+            int x = (a != null) ? a.data : 0;
+            int y = (b != null) ? b.data : 0;
+            int sum = carry + x + y;
+            carry = sum / 10;
+            tail.next = new ListNode(sum % 10);
+            tail = tail.next;
+            if (a != null) a = a.next;
+            if (b != null) b = b.next;
+        }
+        if (carry > 0){
+            tail.next = new ListNode(carry);
+        }
+        return dummy.next;
+    }
+
     public void createALoopInLinkedList(){
         ListNode first = new ListNode(1);
         ListNode second = new ListNode(2);
@@ -155,8 +175,10 @@ public class SinglyLinkedList_03 {
         sll_03b.display();
 
         SinglyLinkedList_03 result = new SinglyLinkedList_03();
-        result.head = merge(sll_03a.head, sll_03b.head);
+//        result.head = merge(sll_03a.head, sll_03b.head);
+//        result.display();
+
+        result.head = addTwoSinglyLinkedList(sll_03a.head, sll_03b.head);
         result.display();
     }
 }
-
