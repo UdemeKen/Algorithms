@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe04a80a-f33f-48c6-805c-6e561d765687" name="Changes" comment="singlyLinkedList contains loop added">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/algorithms/linkListAlgorithms/singlyLinkedList_03/SinglyLinkedList_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/algorithms/linkListAlgorithms/singlyLinkedList_03/SinglyLinkedList_03.java" afterDir="false" />
+    <list default="true" id="fe04a80a-f33f-48c6-805c-6e561d765687" name="Changes" comment=" add two singlylinkedlist added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithms/linkListAlgorithms/doublyLinkedList/DoublyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +144,7 @@
       <workItem from="1691406600916" duration="1044000" />
       <workItem from="1691571473466" duration="796000" />
       <workItem from="1691665180313" duration="10050000" />
-      <workItem from="1692371117690" duration="1219000" />
+      <workItem from="1692371117690" duration="2021000" />
     </task>
     <task id="LOCAL-00001" summary="FindSum algorithm with time complexity updated.">
       <created>1677101704505</created>
@@ -287,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692198107510</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary=" add two singlylinkedlist added">
+      <created>1692373714725</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1692373714725</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,6 +328,7 @@
     <MESSAGE value="Insert node in sorted list added" />
     <MESSAGE value="delete node added" />
     <MESSAGE value="singlyLinkedList contains loop added" />
-    <option name="LAST_COMMIT_MESSAGE" value="singlyLinkedList contains loop added" />
+    <MESSAGE value=" add two singlylinkedlist added" />
+    <option name="LAST_COMMIT_MESSAGE" value=" add two singlylinkedlist added" />
   </component>
 </project>
