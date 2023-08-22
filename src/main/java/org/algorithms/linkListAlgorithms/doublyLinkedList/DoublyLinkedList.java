@@ -1,5 +1,7 @@
 package org.algorithms.linkListAlgorithms.doublyLinkedList;
 
+import java.util.NoSuchElementException;
+
 public class DoublyLinkedList {
     private ListNode head;
     private ListNode tail;
@@ -76,10 +78,28 @@ public class DoublyLinkedList {
         System.out.println("null");
     }
 
+    public ListNode deleteFirst(){
+        if (isEmpty()){
+            throw new NoSuchElementException();
+        }
+        ListNode temp = head;
+        if (head == tail){
+            tail = null;
+        }else {
+            head.next.previous = null;
+        }
+        head = head.next;
+        tail.next = null;
+        length--;
+        return temp;
+    }
+
     public static void main(String[] args) {
         DoublyLinkedList dll = new DoublyLinkedList();
-        dll.insertFirst(1);
+        dll.insertLast(1);
+        dll.insertLast(10);
 
+        dll.deleteFirst();
         dll.displayForward();
         dll.displayBackward();
     }

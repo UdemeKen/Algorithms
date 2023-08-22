@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe04a80a-f33f-48c6-805c-6e561d765687" name="Changes" comment="doublyLinkedList added">
+    <list default="true" id="fe04a80a-f33f-48c6-805c-6e561d765687" name="Changes" comment="insertFirst method in doublyLinkedList added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/algorithms/linkListAlgorithms/doublyLinkedList/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/algorithms/linkListAlgorithms/doublyLinkedList/DoublyLinkedList.java" afterDir="false" />
     </list>
@@ -161,6 +161,8 @@
       <workItem from="1691665180313" duration="10050000" />
       <workItem from="1692371117690" duration="2086000" />
       <workItem from="1692540850230" duration="1933000" />
+      <workItem from="1692634707992" duration="298000" />
+      <workItem from="1640995486791" duration="1440000" />
     </task>
     <task id="LOCAL-00001" summary="FindSum algorithm with time complexity updated.">
       <created>1677101704505</created>
@@ -316,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692458854826</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="insertFirst method in doublyLinkedList added">
+      <created>1692634989367</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1692634989367</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,6 +362,7 @@
     <MESSAGE value="singlyLinkedList contains loop added" />
     <MESSAGE value=" add two singlylinkedlist added" />
     <MESSAGE value="doublyLinkedList added" />
-    <option name="LAST_COMMIT_MESSAGE" value="doublyLinkedList added" />
+    <MESSAGE value="insertFirst method in doublyLinkedList added" />
+    <option name="LAST_COMMIT_MESSAGE" value="insertFirst method in doublyLinkedList added" />
   </component>
 </project>
