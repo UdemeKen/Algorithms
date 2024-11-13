@@ -1,5 +1,7 @@
 package org.algorithms.linkListAlgorithms.circularSinglyLinkedList;
 
+import java.util.NoSuchElementException;
+
 public class CircularSinglyLinkedList {
     private ListNode last;
     private int length;
@@ -63,11 +65,42 @@ public class CircularSinglyLinkedList {
         length++;
     }
 
+    public void insertLast(int data) {
+        ListNode temp = new ListNode(data);
+        if (last == null) {
+            last = temp;
+            last.next = last;
+        } else {
+            temp.next = last.next;
+            last.next = temp;
+            last = temp;
+        }
+        length++;
+    }
+
+    public ListNode deleteFirst() {
+        if (isEmpty()) {
+            throw new NoSuchElementException("Circular singly linked list is already empty!");
+        }
+        ListNode temp = last.next;
+        if (last.next == last) {
+            last = null;
+        } else {
+            last.next = temp.next;
+        }
+        temp.next = null;
+        length--;
+        return temp;
+    }
+
     public static  void main(String[] args) {
         CircularSinglyLinkedList circularSinglyLinkedList = new CircularSinglyLinkedList();
-        circularSinglyLinkedList.createCircularLinkedList();
-        circularSinglyLinkedList.display();
+//        circularSinglyLinkedList.createCircularLinkedList();
+//        circularSinglyLinkedList.display();
         circularSinglyLinkedList.insertFirst(20);
+        circularSinglyLinkedList.insertLast(10);
+        circularSinglyLinkedList.display();
+        circularSinglyLinkedList.deleteFirst();
         circularSinglyLinkedList.display();
     }
 }
