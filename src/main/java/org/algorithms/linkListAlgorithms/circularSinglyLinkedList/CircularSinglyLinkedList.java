@@ -40,8 +40,21 @@ public class CircularSinglyLinkedList {
         last = first;
     }
 
+    public void display() {
+        if (last == null) {
+            return;
+        }
+         ListNode first  = last.next;
+        while (first != last) {
+            System.out.print(first.data + "=>");
+            first = first.next;
+        }
+        System.out.print(first.data);
+    }
+
     public static  void main(String[] args) {
         CircularSinglyLinkedList circularSinglyLinkedList = new CircularSinglyLinkedList();
         circularSinglyLinkedList.createCircularLinkedList();
+        circularSinglyLinkedList.display();
     }
 }
