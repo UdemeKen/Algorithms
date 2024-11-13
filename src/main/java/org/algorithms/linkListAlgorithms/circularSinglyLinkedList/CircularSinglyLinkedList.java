@@ -49,12 +49,25 @@ public class CircularSinglyLinkedList {
             System.out.print(first.data + "=>");
             first = first.next;
         }
-        System.out.print(first.data);
+        System.out.println(first.data);
+    }
+
+    public void insertFirst(int data) {
+        ListNode temp = new ListNode(data);
+        if (last == null) {
+            last = temp;
+        } else {
+            temp.next = last.next;
+        }
+        last.next = temp;
+        length++;
     }
 
     public static  void main(String[] args) {
         CircularSinglyLinkedList circularSinglyLinkedList = new CircularSinglyLinkedList();
         circularSinglyLinkedList.createCircularLinkedList();
+        circularSinglyLinkedList.display();
+        circularSinglyLinkedList.insertFirst(20);
         circularSinglyLinkedList.display();
     }
 }

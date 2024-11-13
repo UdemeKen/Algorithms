@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe04a80a-f33f-48c6-805c-6e561d765687" name="Changes" comment="insertFirst method in doublyLinkedList added">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/algorithms/linkListAlgorithms/circularSinglyLinkedList/CircularSinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/algorithms/linkListAlgorithms/circularSinglyLinkedList/CircularSinglyLinkedList.java" afterDir="false" />
-    </list>
+    <list default="true" id="fe04a80a-f33f-48c6-805c-6e561d765687" name="Changes" comment="insertFirst method in doublyLinkedList added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -169,7 +167,7 @@
       <workItem from="1692540850230" duration="1933000" />
       <workItem from="1692634707992" duration="298000" />
       <workItem from="1640995486791" duration="1440000" />
-      <workItem from="1731470787618" duration="2901000" />
+      <workItem from="1731470787618" duration="3686000" />
     </task>
     <task id="LOCAL-00001" summary="FindSum algorithm with time complexity updated.">
       <created>1677101704505</created>
