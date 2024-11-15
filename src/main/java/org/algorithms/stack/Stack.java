@@ -45,4 +45,11 @@ public class Stack {
         length--;
         return result;
     }
+
+    public int peek() {
+        if (isEmpty()) {
+            throw new EmptyStackException();
+        }
+        return top.data;
+    }
 }
