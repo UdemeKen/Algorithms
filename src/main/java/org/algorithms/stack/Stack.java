@@ -26,4 +26,11 @@ public class Stack {
     public boolean isEmpty() {
         return length == 0;
     }
+
+    public void push(int data) {
+        ListNode temp = new ListNode(data);
+        temp.next = top;
+        top = temp;
+        length++;
+    }
 }
